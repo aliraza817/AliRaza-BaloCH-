@@ -1,5 +1,4 @@
-
-name: Build AliRaza Baloch APK
+Build AliRaza Baloch APK
 
 on:
   workflow_dispatch:
@@ -36,3 +35,4 @@ jobs:
         with:
           name: AliRaza-Baloch-APK
           path: app/build/outputs/apk/debug/app-debug.apk
+          
